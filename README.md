@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <style>
     table, tr, td {
         border: 1px solid black;
@@ -45,8 +48,8 @@
   <p1> A recent survey for Wisconsin residents shows the most popular book genres of some age groups/ranges. From the data, we can see:
   <ul> 
    <li> The most popular book genre for ages 67-97 was biographies.</li>
-   <li> The most popular book genre for ages 36-66 was thrilers. </li>
+   <li> The most popular book genre for ages 36-66 was thrillers. </li>
    <li> The most popular book genre for ages 15-35 was Romance. </li>
   </ul>
-  
+  </html>
     
