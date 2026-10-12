@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Math Test</title>
+</head>
+<body>
+    <h1>Online Math Test</h1>
+    <p>Please read through and answer all of the questions below.</p>
+    <!-- Start of the Math Test -->
+    <form>
+ First and Last Name: <br />
+    <input type="name"
+    <br />
+</form>
+<h2>
+Question 1
+</h2>
+<p>What is 12 x 3?</p>
 
+        <input type="radio" name="q1" value="62"> 62<br>
+        <input type="radio" name="q1" value="36"> 36<br>
+        <input type="radio" name="q1" value="38"> 38<br><br>
+ <h2>Question 2</h2>      
+<p>
+Find x:  4(2x+8)
+</p>
+        <input type="radio" name="q1" value="4"> 4<br>
+        <input type="radio" name="q1" value="32"> 32<br>
+        <input type="radio" name="q1" value="16"> 16<br><br>
+<h2>Question 3</h2>
+<p>
+What is 727&minus;21?
+</p>
+        <input type="radio" name="q1" value="701"> 701<br>
+        <input type="radio" name="q1" value="719"> 719<br>
+        <input type="radio" name="q1" value="706"> 706<br><br>
+<<h2>Question 4: Word Problem</h2>
+        <p>
+           Amy has a dozen apples. Her friends come over and eat three of the apples. How many apples does Amy have left? Explain your answer.
+        </p>
+        <textarea name="wordProblem" rows="5" cols="40"></textarea>
+        <br><br>
+ <button type="submit">Submit Test</button>
+    </form>
+    <!-- End of the Math Test -->
+</body>
+</html>
