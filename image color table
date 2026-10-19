@@ -6,7 +6,7 @@
         border: 1px solid black;
     }
     <table>
-    <caption><h1> Wisconsin Book Genre Survey </h1></caption>
+    <caption><h1> Strawberry Color Palette </h1></caption>
      <td rowspan="8"><b>Genre</b></td>
    <td rowspan="2" colspan="1"></td>Ages
    <tr>
