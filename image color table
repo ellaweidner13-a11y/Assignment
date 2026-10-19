@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eeyore's Dreamy Blue-Gray Palette</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f2f6;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      max-width: 900px;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: white;
+    }
+
+    caption {
+      font-size: 25px;
+      font-weight: bold;
+      font-style: italic;
+      color: #4e536b;
+      padding: 15px;
+    }
+
+    th, td {
+      border: 1px solid #777;
+      padding: 12px;
+      text-align: center;
+    }
+
+    thead th {
+      background-color: #e2dce9;
+      color: #35343b;
+    }
+
+    .blue-gray {
+      background-color: #718DA4;
+      color: white;
+    }
+
+    .bow-pink {
+      background-color: #D9829A;
+      color: #222;
+    }
+
+    .soft-purple {
+      background-color: #A99ABF;
+      color: #222;
+    }
+
+    .donkey-gray {
+      background-color: #B8B8B5;
+      color: #222;
+    }
+
+    .blush-pink {
+      background-color: #E9B7C5;
+      color: #222;
+    }
+
+    .mane-charcoal {
+      background-color: #35343B;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Eeyore's Dreamy Blue-Gray Palette</caption>
+
+    <thead>
+      <tr>
+        <th scope="col">Color Name</th>
+        <th scope="col">HEX Value</th>
+        <th scope="col">RGB Value</th>
+        <th scope="col">HSL Value</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="blue-gray">Blue-Gray</td>
+        <td>#718DA4</td>
+        <td>rgb(113, 141, 164)</td>
+        <td>hsl(208, 22%, 54%)</td>
+      </tr>
+
+      <tr>
+        <td class="bow-pink">Bow Pink</td>
+        <td>#D9829A</td>
+        <td>rgb(217, 130, 154)</td>
+        <td>hsl(343, 53%, 68%)</td>
+      </tr>
+
+      <tr>
+        <td class="soft-purple">Soft Purple</td>
+        <td>#A99ABF</td>
+        <td>rgb(169, 154, 191)</td>
+        <td>hsl(264, 22%, 68%)</td>
+      </tr>
+
+      <tr>
+        <td class="donkey-gray">Donkey Gray</td>
+        <td>#B8B8B5</td>
+        <td>rgb(184, 184, 181)</td>
+        <td>hsl(60, 2%, 72%)</td>
+      </tr>
+
+      <tr>
+        <td class="blush-pink">Blush Pink</td>
+        <td>#E9B7C5</td>
+        <td>rgb(233, 183, 197)</td>
+        <td>hsl(343, 53%, 82%)</td>
+      </tr>
+
+      <tr>
+        <td class="mane-charcoal">Mane Charcoal</td>
+        <td>#35343B</td>
+        <td>rgb(53, 52, 59)</td>
+        <td>hsl(250, 6%, 22%)</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
