@@ -1,1 +1,172 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Daily Schedule App</title>
+
+    <style>
+        /* Style the entire page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 30px;
+            color: #333;
+        }
+
+        /* Style the main heading */
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        /* Style the table itself */
+        table {
+            width: 100%;
+            max-width: 900px;
+            margin: 25px auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style all table headers */
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #2980b9;
+        }
+
+        /* Style all table cells */
+        td {
+            padding: 12px;
+            border: 1px solid #d5dce3;
+        }
+
+        /* Style at least one column */
+        td:first-child {
+            font-weight: bold;
+            color: #2c3e50;
+            width: 25%;
+        }
+
+        /* Style alternating rows */
+        tbody tr:nth-child(even) {
+            background-color: #eaf4fb;
+        }
+
+        /* Style a row when the mouse hovers over it */
+        tbody tr:hover {
+            background-color: #d1ecf1;
+        }
+
+        /* Style the status column */
+        td:last-child {
+            color: #247a46;
+        }
+
+        /* Style the footer */
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Daily Schedule</h1>
+
+    <p>A busy day of school, work, and personal time.</p>
+    <p><strong>Date:</strong> Thursday October 22, 2026</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Event / Task</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>7:30 AM</td>
+                <td>Wake Up</td>
+                <td>After a couple minutes of cuddling with my dog, I get up and head downstairs for breakfast.</td>
+            </tr>
+            <tr>
+                <td>7:40 AM</td>
+                <td>Breakfast</td>
+                <td>Make and eat a bowl of cereal for breakfast.</td>
+            </tr>
+            <tr>
+                <td>8:00 AM</td>
+                <td>Get ready for the day.</td>
+                <td>Take a shower, put makeup on, blow dry hair, and get dressed.</td>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Begin schoolwork.</td>
+                <td>Start with Liberal Arts Math.</td>
+            </tr>
+            <tr>
+                <td>11:00AM</td>
+                <td>Work on Web Design</td>
+                <td>Do the assignments for the day.</td>
+            </tr>
+            <tr>
+                <td>12:00 PM</td>
+                <td>Lunch Break</td>
+                <td> Make, eat lunch, and watch a short YouTube video.</td>
+            </tr>
+            <tr>
+                <td>12:30 PM</td>
+                <td>Get back to schoolwork</td>
+                <td>Work on English class assignments.</td>
+            </tr>
+            <tr>
+                <td>1:30 PM</td>
+                <td>Drive to a cafe to continue work.</td>
+                <td>Drives to Barnes and Noble to finish up assignments.</td>
+            </tr>
+            <tr>
+                <td>4:00 PM</td>
+                <td>Head back home and eat dinner.</td>
+                <td>After vigourously working on assignments, eat something quick for dinner before leaving for work (dogsitting).</td>
+            </tr>
+            <tr>
+                <td>5:30 PM</td>
+                <td>Dogsitting</td>
+                <td>Dogsit an adorable chihuaha named Dasher for a couple hours.</td>
+            </tr>
+            <tr>
+                <td>8:15 PM</td>
+                <td>Head home and get ready for bed.</td>
+                <td>Get a treat, watch a t.v. show with my sister, hang out with my family, and read before nestling into bed.</td>
+            </tr>
+            <tr>
+                <td>10:00 PM</td>
+                <td>Drift off to sleep</td>
+                <td>After a duoling day, sleep is an important factor to recharge for the next day.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
